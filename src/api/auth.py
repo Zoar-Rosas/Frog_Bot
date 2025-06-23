@@ -8,7 +8,7 @@ sys.path.append(r"C:\Users\zoarn\Desktop\Trading Bot")
 from config import Colors
 
 load_dotenv()
-
+#Inicio de sesión
 class InicioSesionQuotexOTC:
     def __init__(self):
         self.email = os.getenv("QUOTEX_EMAIL", "").strip()
