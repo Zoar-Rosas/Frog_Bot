@@ -39,7 +39,7 @@ async def main_app():
         await stream.iniciar_stream_velas()
 
     except KeyboardInterrupt:
-        print(f"{Colors.INFO}Bot detenido manualmente\033[0m")
+        print(f"{Colors.INFO}Bot detenido manualmente\033[0m ")
     except Exception as e:
         print(f"{Colors.ERROR}Error fatal: {str(e)}\033[0m")
     finally:
