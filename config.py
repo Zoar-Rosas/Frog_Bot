@@ -19,7 +19,7 @@ class Colors:
     OPERACION: Final[str] = "\033[38;5;159m"  # Cyan claro
     GANANCIA: Final[str] = "\033[38;5;46m"    # Verde brillante
     PERDIDA: Final[str] = "\033[38;5;196m"    # Rojo
-    INFOS: Final[str] = "\033[38;5;220m"       # Amarillo
+    INFOS: Final[str] = "\033[38;5;220m"      # Amarillo
     RESET: Final [str] = "\033[0m"
     VERDE: Final [str] = "\033[38;5;76m"
     AMARILLO: Final [str] = "\033[38;5;226m"
@@ -35,9 +35,9 @@ class Colors:
 
 class Settings:
     """Configuraciones globales."""
-    COOLDOWN: Final[int] = 80  # Segundos
+    COOLDOWN: Final[int] = 80                # Segundos
     DURACION_ORDEN: Final[int] = 61          # Segundos
-    MAX_VELAS: Final[int] = 110               # Tamaño del deque en streams.py
+    MAX_VELAS: Final[int] = 110              # Tamaño del deque en streams.py
 
 class Horas:
     """Clase para manejo de horas con colores (actualizada en tiempo real)."""
@@ -63,4 +63,3 @@ class Horas:
 #print(Horas.cyan())
 #print(f"{Colors.PASTEL_PINK}(╬ Ò - Ó) No se pudo autenticar. Saliendo...{Colors.RESET}")
 #print(f"{Colors.STREAM}(╯-_-)╰ No se pudo conectar al cliente\033[0m")
-#print("\033[38;5;46m[STREAM] :: (╯-_-)╰ No se pudo conectar al cliente\033[0m")
