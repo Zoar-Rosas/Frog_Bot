@@ -1,0 +1,19 @@
+TradingBot/
+├── .env                       # Contraseñas
+├── config.py		       #Constantes, colores
+├── .vscode
+│   └── settings.json          # Archivos de configuración
+├── src/
+│   ├── art_ascii.py           # Arte ASCII del bot
+│   ├── api/                   
+│   │   ├── auth.py            # Autenticacion e inicio de sesión
+│   │   └── streams.py         # Datos en tiempo real
+│   ├── analisis/             
+│   │   ├── indicadores.py     # RSI, MACD, etc.
+│   ├── ordenes/                
+│   │   ├── ejecutor.py        # Ejecutar compra/venta
+│   └── main.py                # Punto de entrada
+├── tests/
+│   └── test_auth.py           # Pruebas
+├── requirements.txt
+└── README.md
