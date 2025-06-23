@@ -1,0 +1,8 @@
+{
+    "python.analysis.extraPaths": [
+        "C:/Users/zoarn/anaconda3/envs/Quotex_env/Lib/site-packages"
+    ],
+    "python.analysis.diagnosticSeverityOverrides": {
+        "reportMissingImports": "none"
+    }
+}
