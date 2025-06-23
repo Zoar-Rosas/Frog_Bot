@@ -1,8 +1,6 @@
 TradingBot/
 ├── .env                       # Contraseñas
-├── config.py		       #Constantes, colores
-├── .vscode
-│   └── settings.json          # Archivos de configuración
+├── config.py		       # Constantes y colores
 ├── src/
 │   ├── art_ascii.py           # Arte ASCII del bot
 │   ├── api/                   
