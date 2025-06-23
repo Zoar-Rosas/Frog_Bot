@@ -144,7 +144,7 @@ class AnalizadorTecnico:
             tendencia_alcista_5min = self.ema_8_5min > self.ema_20_5min
             tendencia_bajista_5min = self.ema_8_5min < self.ema_20_5min
             adx_suficiente = self.adx >= 15
-            lejos_ema = distancia_pips >= 5  # Umbral de 5 pips
+            lejos_ema = distancia_pips >= 5  # Umbral de '5 pips'
             cerca_nivel = any(abs(ultima_vela['close'] - zp[1]) * 10000 < 5 for zp in self.zigzag_points)  # Menos de 5 pips de nivel clave
 
             if (cruce_alcista and lejos_ema and adx_suficiente and tendencia_alcista_5min and not cerca_nivel):
