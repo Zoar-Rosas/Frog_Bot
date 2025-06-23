@@ -28,7 +28,7 @@ async def main_app():
         ejecutor = EjecutorOrdenes(cliente, periodo)
         stream = RealTimeCandlesOTC(cliente, analizador, ejecutor, periodo)
 
-        # Manejar 'Ctrl+C'
+        # Manejar salida con Ctrl+C
         def handle_interrupt(sig, frame):
             print(f"\n{Colors.INFO}Deteniendo bot...\033[0m")
             raise KeyboardInterrupt
