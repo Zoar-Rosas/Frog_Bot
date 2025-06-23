@@ -37,7 +37,7 @@ class Settings:
     """Configuraciones globales."""
     COOLDOWN: Final[int] = 80                # Segundos
     DURACION_ORDEN: Final[int] = 61          # Segundos
-    MAX_VELAS: Final[int] = 110              # Tamaño del deque en streams.py
+    MAX_VELAS: Final[int] = 110              # Tamaño del deque para streams.py
 
 class Horas:
     """Clase para manejo de horas con colores (actualizada en tiempo real)."""
